@@ -1,0 +1,19 @@
+cleaning
+	missing data
+	noisy data
+tuple duplication
+	redundancy and correlation analysis
+	data value conflict detection and resolution
+
+data reduction
+	attribute subset selection
+	HISTOGRAM
+	sampling
+
+data transformation, normalisation
+	MIN-MAX
+	z score
+
+binning
+normalisation
+HISTOGRAM

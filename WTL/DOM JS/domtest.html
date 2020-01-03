@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>DOM test</title>
+    <script type="application/javascript">
+    function setbodyattr(attr, value){
+        if(document.body)
+            eval("document.body."+attr+"=""+value+""")
+    }
+
+    </script>
+</head>
+<body>
+    <center>
+        <button onclick="gettime()" >Click for time</button>
+        <p id="time">time</p>
+    </center>
+
+    <center>
+        <font>Text Colour:</font>
+        <select>
+            <option value="black">black
+            <option value="red">red
+            <option value="blue">blue
+            <option value="green">green
+        </select>
+        <br>
+        <br>
+
+        <font>Background Colour:</font>
+        <select>
+            <option value="black">black
+            <option value="red">red
+            <option value="blue">blue
+            <option value="green">green
+        </select>
+    </center>
+
+
+    
+</body>
+</html>

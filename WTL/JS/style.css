@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    background: rgb(150, 223, 217);
+
+}
+.formformat{
+    text-align: center;
+    margin:100px;
+}
+.formformat div{
+    display: block;
+    margin: 10px 10px;
+    
+}
+
+.formformat input{
+    padding: 10px 30px;
+    border: 1px solid red;
+    border-radius: 50px;
+    background:rgb(91, 211, 201);
+}
+
+.nameformat input[type=text]{
+    width: 100px;
+}
+.width208{
+    width: 245px;
+    
+}
+
+.formformat input[type=submit]{
+    background: darkcyan;
+    border: 1px solid red;
+    padding: 10px 20px;
+    cursor: pointer;
+}
