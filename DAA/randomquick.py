@@ -1,3 +1,4 @@
+import random
 import time
 
 t1 = time.time()
@@ -5,7 +6,9 @@ print("t1: ",t1)
 start = int(round(time.time() * 1000))
 
 def partition(arr,l,h):
-    pivot = arr[l]
+    x = random.randint(l,h-1)
+    print(x)
+    pivot = arr[x]
     i=l
     j=h
     while i<j:
@@ -35,11 +38,11 @@ def qsort(arr,l,h):
 #arr = [50,23,9,18,61,81,21,82]
 # arr = [45,67,34,56,89,90,12,11,8,7,6,5,4,3,2,1]
 arr = [1, 2, 3, 4, 5, 6, 7, 8, 11, 12, 34, 45, 56, 67, 89, 90]
+
 a = len(arr)
-print("\nUnsorted:- ",arr) c
+print("\nUnsorted:- ",arr)
 qsort(arr,0,a-1)
 print("\nSorted:- ",arr)
-
 end = int(round(time.time() * 1000))
 print("start time:",start)
 print("end time:",end)
