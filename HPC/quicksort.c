@@ -51,30 +51,6 @@ void quicksort(double arr[], int low, int high)
 	}
 }
 
-/*
-void parallel_quicksort(double arr[], int low, int high)
-{
-	int j;
-
-	if(low < high){
-		j = partition(arr, low, high);
-		// quicksort(arr, low, j - 1);
-		// quicksort(arr, j + 1, high);
-		#pragma omp parallel sections
-		{
-			#pragma omp section
-			{
-        			quicksort(arr,low, j - 1);//Thread 1
-    			}
-			#pragma omp section
-			{
-        			quicksort(arr, j + 1, high);//Thread 2
-   			}
-		}
-
-	}
-}
-*/
 
 int main()
 {

@@ -33,7 +33,6 @@ def centroid_calc(centroids):
 
 
 def load_data():
-    # [[2,3],[5,6],[8,7],[1,4],[2,2],[6,7],[3,4],[8,6]]
     return [[2,3],[5,6],[8,7],[1,4],[2,2],[6,7],[3,4],[8,6]]
 
 
@@ -41,6 +40,7 @@ num = int(input("Enter No. of cluster centroids : "))
 
 sample = load_data()
 centroids=[]
+
 j=0
 for j in range(num):
         centroids.append(sample[j])
